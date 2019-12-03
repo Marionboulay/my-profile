@@ -1,0 +1,100 @@
+/* Write your CSS here */
+body{
+  background: rgb(245,245,245);
+  color: #393D3F;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+h1{
+  font-family: Helvetica;
+  color: #546A7B;
+  font-weight: bold;
+  font-size: 30px;
+}
+h2 {
+  font-family: Helvetica;
+  color: #546A7B;
+  font-weight: lighter;
+  font-size: 25px;
+}
+a {
+  color: red;
+}
+a:hover {
+  text-decoration: none;
+  color: #FFE900;
+}
+
+p{
+	color : #62929E;
+}
+
+#banner{
+  text-align: center;
+  background-image: url(images/mitchell-luo-TmAAklbdKJs-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  color: red;
+}
+#banner h1 {
+  font-size: 50px;
+}
+#banner p {
+  margin-bottom: 40px;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#banner img {
+  border-radius: 50%;
+}
+#footer{
+  padding: 50px;
+  background-color: black;
+  text-align: center;
+  color: lightgrey;
+}
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+.card-white img {
+  margin-bottom: 20px;
+}
+.btn-blue {
+  color:#62929E;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+.btn-blue:hover {
+  background-color: white;
+  color: #62929E;
+}
+
+.cards{
+  margin: 15px auto;
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+
+@media(max-width: 992px){
+  .cards{
+  width: 750px;
+  }
+}
+@media(max-width: 768px){
+  .cards{
+  width: 90%;
+  grid-template-columns: 1fr;
+  }
+}
